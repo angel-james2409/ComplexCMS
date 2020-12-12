@@ -1,0 +1,29 @@
+-- change the database to your team id
+use MLP211;
+
+
+
+insert into MENU values(101);
+
+insert into MENU values(102);
+
+insert into MENU values(103);
+
+insert into MENU values(104);
+
+insert into MENU values(105);
+
+---------------------
+-- change the database to your team id
+use MLP211;
+
+insert into CUSTOMER values(1, 'RADHIKA', 987654, 20.00);
+insert into CUSTOMER values(2, 'ANGEL', 999999, 30.00);
+
+
+insert into VENDOR values(001, 'ANSHUMAN', 00.00, 123456, 'SIRU', 'ABC000','ABC000' );
+insert into VENDOR values(002, 'VIKALP', 10.00, 678912, 'SERI', 'DEF000','DEF000' );
+
+
+insert into MENU values(101, 'ABC', 200.00, 001);
+insert into MENU values(102, 'DEF', 100.00, 002);
